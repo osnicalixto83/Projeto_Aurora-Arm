@@ -1,0 +1,13 @@
+PACOTE AURORAARM
+
+1. PDF: Trabalho_Completo_AuroraArm.pdf (relatório e memorial detalhado).
+2. Código: pasta src/.
+3. Testes: tests/test_model_safety.py.
+4. Rastreabilidade: docs/rastreabilidade.md.
+
+Executar:
+  python -m pip install numpy pytest
+  python src/generate_c.py
+  python -m pytest -q
+
+IMPORTANTE: o controlador possui ganhos ilustrativos; não ligar a hardware real. O pacote não é certificado. Fechar as pendências descritas no relatório antes de declarar atendimento integral aos requisitos.
